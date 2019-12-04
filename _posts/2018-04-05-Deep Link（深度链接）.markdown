@@ -6,7 +6,7 @@ categories: iOS开发
 tags: 深度链接 DeepLink
 ---
 
-**Deeplink（深度链接）**
+**Deeplink DeepLink（深度链接）**
 
 我们手机里面的每个APP都是独立的，他们之间的内容、服务是完全隔离的，应用搜索是断裂的，每个 APP 都建立起自己的信息孤岛，链接和数据不能在APP之间交换。这时就需要深度链接（Deeplink）—— 深度链接让 APP 开发者能够链接到应用内特定的页面。
 

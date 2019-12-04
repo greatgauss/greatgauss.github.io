@@ -1,0 +1,567 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  
+    <entry>
+      <title>iOS资料整理</title>
+      <url>/ios%E5%BC%80%E5%8F%91/2018/04/04/iOS%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/</url>
+      <content type="text">文章收集整理了iOS开发中常用的工具及资料，包括第三方库、插件、项目源码、社区、博客、书籍等，方便回顾和提高开发效率，多看多学提升实力。
+
+GitHub上排名常用的项目
+
+
+  
+    
+      项目名称
+      项目信息
+    
+  
+  
+    
+      AFNetworking
+      作者是 NSHipster 的博主, iOS 开发界的大神级人物, 毕业于卡内基·梅隆大学, 开源了许多牛逼的项目, 这个便是其中之一, AFNetworking 采用 NSURLConnection + NSOperation, 主要方便与服务端 API 进行数据交换, 操作简单, 功能强大, 现在许多人都用它取代 ASIHTTPRequest
+    
+    
+      SDWebImage
+      作者 Olivier Poitrey 是 Dailymotion 的 CTO, 拥有多个不错的开源项目, 此项目常用于对从 Web 端接受到的图片进行缓存, 是 UIImageView 的扩展, 应用起来比较简单
+    
+    
+      MBProgressHUD
+      作者 Matej Bukovinski 是一位全栈工程师, UI/UX 设计师, 此项目是一款提示框第三方库, 帮助开发者快速应用到项目中)
+    
+    
+      FMDB
+      一个对 SQLite 进行封装的库, 使用起来方便, 简单
+    
+    
+      Masonry
+      一个轻量级的布局框架, 同时支持 iOS 和 Mac OS X, 语法优雅, 帮助开发者快速适配不同分辨率的 iOS 设备
+    
+    
+      MJExtension
+      字典转模型框架
+    
+    
+      MJRefresh
+      下拉上拉刷数据
+    
+    
+      TPKeyboardAvoiding
+      有文字输入时，能根据键盘是否弹出来调整自身显示内容的位置
+    
+    
+      ReactiveCocoa
+      基于响应式编程框架， 提供了组合和转化数据流的API.将iOS中的Action、Delegate、Target、KVO、Block，NSNotification统一共同的消息传递机制进行事件处理，属性变化，回调响应.
+    
+    
+      BlocksKit
+      block工具包。将很多需要用delegate实现的方法整合成了block的形式
+    
+    
+      ASIHTTPRequest
+      一个轻量级的 iOS 网络通信类库, 基于 CFNetwork 框架开发, 但现在已经停止更新, 多数开发者改用 AFNetworking 替代)
+    
+    
+      JSONKit
+      主要用于解析 JSON, 适用于 iOS6 以下环境, 自从 iOS5 开始 Apple 官方给出了 NSJSONSerialization API, 自此大家都用官方的了
+    
+    
+      SVProgressHUD
+      又一款轻量级的 iOS 第三方控件, 用于显示任务加载时的动画, 非常轻便, 容易使用
+    
+    
+      Alcatraz
+      Alcatraz 是一款管理 Xcode 插件、模版以及颜色配置的工具, 可以集成到 Xcode 的图形界面中, 安装删除都是几条命令的事, 很方便, 支持自己开发插件并上传
+    
+    
+      CocoaAsyncSocket
+      一个功能强大、简单易用的异步 socket 通讯类库, 支持 TCP 和 UDP 协议, 可用于 Mac 和 iOS 设备上, 作者 Robbie Hanson 是 Deusty 的首席软件工程师
+    
+    
+      SWTableViewCell
+      UITableViewCell 的子类, 实现了左右滑动显示信息视图并调出按钮
+    
+    
+      SocketRocket
+      Square 公司开源的一个 WebSocket 客户端, 稳定并且易用, 做实时应用常会用到, 受广大开发者喜爱
+    
+    
+      TTTAttributedLabel
+      UILabel 的替代品, 使 iOS 上的 Label 功能更加丰富, 可支持链接植入等功能
+    
+    
+      PNChart
+      作者周楷雯是 90 后, 秒视的创始人, 该项目是一个带动画效果的图表控件, 简约易用, 受到不少开发者喜爱
+    
+    
+      hpple
+      XML/HTML解析
+    
+    
+      BarNotification
+      状态栏提示框
+    
+    
+      RegexKitLite
+      正则表达式
+    
+    
+      SDCAlertView
+      SDCAlertView
+    
+    
+      BButton
+      Button的样式
+    
+    
+      Reachability
+      验证网络连接状态
+    
+    
+      UITableView-FDTemplateLayoutCell
+      自动计算表格行高
+    
+    
+      JazzHands
+      动画效果的启动页
+    
+    
+      XMShareModule
+      iOS快速简单集成国内三大平台分享
+    
+    
+      SXFiveScoreShow
+      五项能力值展示的五边形
+    
+    
+      MLEmojiLabel
+      自动识别网址号码邮箱和表情的label
+    
+    
+      UUChatTableView
+      https://github.com/ZhipingYang/UUChatTableView
+    
+    
+       MGSwipeTableCell
+      表格行左右划动菜单
+    
+    
+       TLAttributedLabel
+      图文混搭
+    
+    
+       NYXImagesKit
+      比如筛选、模糊、优化、蒙版、调整大小、旋转以及保存等等。同时还提供了一个UIImageView子类从URL异步加载图片，并在下载完毕时展示图片。
+    
+    
+       RDVTabBarController
+      底部TabBar
+    
+    
+       AGEmojiKeyboard
+      AGEmojiKeyboard
+    
+    
+       WebViewJavascriptBridge
+      IOS与javascript交互
+    
+    
+       appirater
+      appStore评分
+    
+    
+       IOS-Categories
+      iOS-Categories 扩展类大全
+    
+    
+       JxbScanQR
+      扫描二维码，仿微信效果，带有扫描条
+    
+    
+       AMPopTip
+      动效弹出视图(弹出窗里面为文字，可以定义弹出的方向，及显示的时间)–AMPopTip
+    
+    
+      HYBMasonryAutoCellHeight
+      基于Masonry自动计算行高扩展
+    
+    
+       HyPopMenuView
+      模仿新浪微博弹出菜单
+    
+    
+       SearchHistory
+      搜索历史标签
+    
+    
+       XSportLight
+      快速集成新手引导的类库
+    
+    
+       ZFSetting
+      设置页面的封装
+    
+    
+       DXPopover
+      带箭头的弹出视图插件
+    
+    
+       DOPDropDownMenu
+      下拉菜单插件
+    
+    
+       DZNEmptyDataSet
+      表格空白提示插件
+    
+    
+       UIView-Shadow-Maker
+      给任意UIView视图四条边框加上阴影，可以自定义阴影的颜色、粗细程度、透明程度以及位置（上下左右边框）
+    
+    
+       UUDatePicker
+      不错的日期时间插件
+    
+    
+       ActionSheetPicker-3.0
+      底部弹出选择
+    
+    
+       EAIntroView
+      比较不错的引导页面插件
+    
+    
+       DeepLinkKit
+      两个APP跳转的插件
+    
+    
+       GVUserDefaults
+      本地存取NSUserDefaults插件
+    
+    
+       LinqToObjectiveC
+      NSArray 和 NSDictionary关于LINQ的操作方式，封装一些常用的操作
+    
+    
+       NetworkEye
+      可以监控网络请求的内容
+    
+    
+       DateTools
+      时间帮助插件，可以快速获取时间，比较，增加等操作
+    
+    
+       JHChainableAnimations
+      不错的链式动作
+    
+    
+       MDRadialProgress
+      圆形进度条的显示，中间可显示值
+    
+    
+       FeSpinner
+      很帅的数据加载动画（可以用于数据列表加载的展现）
+    
+    
+       YTKNetwork
+      一个开源的AFnetworking上层的封装（猿题库等运用）
+    
+    
+      CBStoreHouseRefreshControl
+      CBStoreHouseRefreshControl：一个效果很酷炫的下拉刷新控件
+    
+    
+       AFNetworking-RACExtensions
+      AFNetworking-RACExtensions:针对ReactiveCocoa的AF封装
+    
+    
+       FXBlurView
+      模糊效果（毛玻璃）
+    
+  
+
+
+社区
+
+
+  
+    
+      社区
+      简介
+    
+  
+  
+    
+      CocoaChina
+      全球最大苹果开发者中文社区
+    
+    
+      objc中国
+      喵神组织的对 objc.io 的翻译网站, 旨在推进国内技术圈整体水平, 翻译质量非常高
+    
+    
+      objc
+      定期发布一些有关 Objective-C 的高质量的文章
+    
+    
+      CSDN
+      专业IT技术社区
+    
+    
+      51cto
+      原创IT文章分享平台
+    
+    
+      博客园
+      简洁版面的分享平台
+    
+    
+      简书
+      简书是一个创作社区，任何人均可以在其上进行创作。用户在简书上面可以方便的创作自己的作品，互相交流。
+    
+    
+      code4app
+      经常更新一些很不错的 iOS 代码片段和一些 iOS 资源
+    
+    
+      Apple Developer Forums
+      苹果官方的开发者论坛
+    
+  
+
+
+博客
+
+
+  
+    
+      博客地址
+      博主信息
+    
+  
+  
+    
+      OneV’s Den
+      王巍(喵神), 现居日本, 就职于 LINE, 知名 iOS 开发者, 写的文章大多深入浅出, 内容广泛, 目前在维护的 Swifter 也值得收藏
+    
+    
+      唐巧的技术博客
+      唐巧, 国内知名 iOS 开发者, 现就职于猿题库, 博客推出的 iOS 移动开发周报很受欢迎, 更新频繁
+    
+    
+      txx’s blog
+      90 后 iOS 开发者, 人称虾神, 文章内容讲解大多浅白易懂, 很值得看
+    
+    
+      破船之家
+      博主也是 iOS 大神一个, 经常更新一些 iOS 教程, 文章的质量都很高, 非常值得看
+    
+    
+      NSHipster
+      NSHipster 的中文网站, 主要对 NSHipster 的英文网站进行翻译, 博文出自 Mattt 大神之手, 文章大都写得很深入, 详细, 每周一更
+    
+    
+      Limboy 无网不剩
+      李忠, 知乎前员工, 目前在负责花瓣 iOS 开发, 不少文章里面有介绍博主个人的学习方法, 让读者在学到技术的同时也掌握学习的技巧
+    
+    
+      念茜的博客
+      iOS 圈的女神人物, 写的关于安全问题的文章都值得一看, 由于新博客刚开通不久, 目前文章较少, 可以去看下她以前的博客
+    
+    
+      iOS技术周报
+      吴发伟, 天猫资深软件开发工程师, iOS 技术周报每周一更, 推送一些 iOS 技巧, 代码库, 设计等资讯.
+    
+    
+      iWangKe.me
+      王轲, IndieBros Studio 创始人, 优秀的 iOS 开发工程师, 写的文章深入浅出, 很多问题分析透彻, 非常有条理性
+    
+    
+      叶孤城
+      叶孤城, 优秀 iOS 开发工程师, 发表的文章都有很多干货, 对源码解析类文章写得浅显易懂, 并时常总结一些 iOS 开发技巧, 值得一读
+    
+    
+      Kevin Blog
+      周楷雯, 秒视创始人, 知名 iOS 工程师, 做出了 PNChart 和 Waver 这样的好项目, 在博客中也有谈到具体的实现过程
+    
+    
+      IMTX
+      图拉鼎, 知名 Apple 平台开发者, 曾经的 Ubuntu 平台开发者, 文章有不少干货, 大多讲解技术实现和学习经验
+    
+    
+      更多
+      唐巧收集的中文 iOS/Mac 开发博客列表, 更新频繁, 值得收藏
+    
+  
+
+
+书籍
+
+
+  
+    
+      书籍名称
+      推荐理由
+    
+  
+  
+    
+      Objective-C Programming
+      内容不多, 却都是精华, 有了一点 C 语言基础可以快速阅读此书, 大概一天时间就可以看完, 看完后对 iOS 开发能够有个基本的印象
+    
+    
+      iOS Programming
+      iOS 又一本极佳的入门书籍, 具体评价可见豆瓣下方该书籍的评论
+    
+    
+      Cocoa Design Patterns
+      适合打算深入了解 Cocoa 的人看
+    
+    
+      Learn Objective-C
+      短小精练, 适合有编程基础的人在半小时内对 Objective-C 有个一定了解
+    
+    
+      Programming with Objective-C
+      看完 Learn Obj-C 可以接着看这个官方对 Objective-C 更为深入的介绍
+    
+    
+      iPhone Programming
+      这本书在 Quora 上被评为 iOS 入门最佳书籍
+    
+    
+      Objective-C 基础教程
+      该书作者 Scott Knaster 是 Mac 开发界的传奇人物, 目前在 Google 出过多数书籍都广受许多程序员好评, 此书适合从初级跳到中级的 iOS 开发者阅读
+    
+    
+      iOS 开发进阶
+      该书作者唐巧是国内 iOS 开发界的名人, 曾参与多个知名软件的开发, 目前该书尚在预售中, 书本内容由浅入深, 将读者一步一步引入到 iOS 中去, 同样适合初级跳到中级的 iOS 开发者阅读
+    
+    
+      Programming in Objective-C
+      这本书在亚马逊上面深受欢迎, 有关 Objective-C 的东西讲得非常详细
+    
+    
+      iOS 测试指南
+      该书作者是豆瓣的员工, 书中写的多数内容都是作者在平时的工作实践当中提炼出来的测试经验, 重点讲述了各个测试阶段的具体实践方法, 并且通过持续集成串联了各个测试阶段的活动。
+    
+    
+      Objective-C编程之道
+      解析 iOS 的开山之作, 详细介绍了 MVC 在 Cocoa Touch 上的运作过程, 该书适用于 iOS 中级开发者阅读
+    
+    
+      Objective-C高级编程
+      本书主要介绍 iOS 与 OS X 多线程和内存管理, 深入破析了苹果官方公布的源代码, 告诉你一些苹果公司官方文档中不会出现的知识, 适合中级以上 iOS 开发人员阅读
+    
+    
+      Effective Objective C 2.0
+      书里写了编写高质量iOS与OS X代码的52个有效方法, 适合 iOS 开发的进阶使用
+    
+    
+      Swift Fundamentals
+      估计将来这本书会成为 Swift 的经典入门书籍, 它的 Stars 数说明了一切
+    
+    
+      The Swift Programming Language 中文版
+      90 后开发者梁杰组织翻译的 Swift 编程语言中文版
+    
+  
+
+
+辅助插件
+
+
+  
+    
+      名称
+      简介
+    
+  
+  
+    
+      VVDocumenter
+      XCODE文档注解插件VVDocumenter
+    
+    
+       ESJsonFormat
+      将JSON格式化输出为模型的属性
+    
+    
+       KSImageNamed
+      图片提示插件
+    
+    
+       RTImageAssets
+      图片转换插件
+    
+  
+
+
+源代码实例
+
+Coding.net客户端
+高仿美团iOS版
+模仿网易新闻做的精仿网易新闻
+支付宝高仿版
+高仿百度传课iOS版
+模仿一元云
+wordpress源代码
+v2ex源代码
+PHPHub客户端
+快速搭建项目源代码
+
+其它转载
+
+iOS 学习资料整理
+
+iOS项目开发中的知识点与问题收集整理
+
+IOS开发–常用工具类收集整理
+
+</content>
+      <categories>
+        
+          <category> iOS开发 </category>
+        
+      </categories>
+      <tags>
+        
+          <tag> iOS资料 </tag>
+        
+      </tags>
+      <tags></tags>
+    </entry>
+  
+    <entry>
+      <title>文章测试</title>
+      <url>/jekyll/update/2018/03/22/%E6%96%87%E7%AB%A0%E6%B5%8B%E8%AF%95/</url>
+      <content type="text">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.
+
+To add new posts, simply add a file in the _posts directory that follows the convention YYYY-MM-DD-name-of-post.ext and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+
+Jekyll also offers powerful support for code snippets:
+
+def print_hi(name)
+  puts &quot;Hi, #{name}&quot;
+end
+print_hi('Tom')
+
+=&amp;gt; prints 'Hi, Tom' to STDOUT.
+
+Check out the Jekyll docs for more info on how to get the most out of Jekyll. File all bugs/feature requests at Jekyll’s GitHub repo. If you have questions, you can ask them on Jekyll Talk.
+
+</content>
+      <categories>
+        
+          <category> jekyll </category>
+        
+          <category> update </category>
+        
+      </categories>
+      <tags>
+        
+          <tag> jekyllTest </tag>
+        
+      </tags>
+      <tags></tags>
+    </entry>
+  
+</search>
